@@ -1,0 +1,6 @@
+[submodule "Submodules/AFNetworking"]
+	path = Submodules/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "Submodules/POSInputStreamLibrary"]
+	path = Submodules/POSInputStreamLibrary
+	url = https://github.com/pavelosipov/POSInputStreamLibrary.git
