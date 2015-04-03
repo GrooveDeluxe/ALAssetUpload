@@ -4,3 +4,6 @@
 [submodule "Submodules/POSInputStreamLibrary"]
 	path = Submodules/POSInputStreamLibrary
 	url = https://github.com/pavelosipov/POSInputStreamLibrary.git
+[submodule "Submodules/FMAssetStream"]
+	path = Submodules/FMAssetStream
+	url = https://github.com/formal-method/FMAssetStream.git

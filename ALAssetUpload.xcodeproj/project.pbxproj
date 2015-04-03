@@ -34,6 +34,12 @@
 		4217EB471ACAB81A00FAE82A /* NSInputStream+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4217EAD11ACAB81A00FAE82A /* NSInputStream+POS.m */; };
 		4217EB481ACAB81A00FAE82A /* POSBlobInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4217EAD41ACAB81A00FAE82A /* POSBlobInputStream.m */; };
 		4217EB491ACAB81A00FAE82A /* POSBlobInputStreamAssetDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4217EAD61ACAB81A00FAE82A /* POSBlobInputStreamAssetDataSource.m */; };
+		42F0A1A41ACBDE6B00F46D2E /* NSURLSessionTask+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F0A1A31ACBDE6B00F46D2E /* NSURLSessionTask+Extras.m */; };
+		788B8ED6DD1BF2B4ED8C0173 /* libPods-ALAssetUpload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320E2BA94F96D9D57BE5AED0 /* libPods-ALAssetUpload.a */; };
+		C99615E51ACE911500EA9E34 /* ALCreateFileCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C99615E41ACE911500EA9E34 /* ALCreateFileCommand.m */; };
+		C99615EC1ACE9BEE00EA9E34 /* ALUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C99615EB1ACE9BEE00EA9E34 /* ALUploadManager.m */; };
+		C99617DB1ACEB6A600EA9E34 /* FMAssetInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C996175A1ACEB6A600EA9E34 /* FMAssetInputStream.m */; };
+		C99617DC1ACEB6A600EA9E34 /* NSMutableURLRequest+FMAssetStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C996175D1ACEB6A600EA9E34 /* NSMutableURLRequest+FMAssetStream.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		320E2BA94F96D9D57BE5AED0 /* libPods-ALAssetUpload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALAssetUpload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4217EA091ACAB61600FAE82A /* ALAssetUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALAssetUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4217EA0D1ACAB61600FAE82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4217EA0E1ACAB61600FAE82A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +113,22 @@
 		4217EAD71ACAB81A00FAE82A /* POSBlobInputStreamDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSBlobInputStreamDataSource.h; sourceTree = "<group>"; };
 		4217EAD81ACAB81A00FAE82A /* POSInputStreamLibrary-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "POSInputStreamLibrary-Prefix.pch"; sourceTree = "<group>"; };
 		4217EAD91ACAB81A00FAE82A /* POSInputStreamLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSInputStreamLibrary.h; sourceTree = "<group>"; };
+		42F0A1A21ACBDE6B00F46D2E /* NSURLSessionTask+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+Extras.h"; sourceTree = "<group>"; };
+		42F0A1A31ACBDE6B00F46D2E /* NSURLSessionTask+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+Extras.m"; sourceTree = "<group>"; };
+		9831FEB23FACB3CDC490BFD5 /* Pods-ALAssetUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALAssetUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALAssetUpload/Pods-ALAssetUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		C99615E31ACE911500EA9E34 /* ALCreateFileCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCreateFileCommand.h; sourceTree = "<group>"; };
+		C99615E41ACE911500EA9E34 /* ALCreateFileCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCreateFileCommand.m; sourceTree = "<group>"; };
+		C99615E71ACE91A200EA9E34 /* CommonDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefs.h; sourceTree = "<group>"; };
+		C99615E81ACE923C00EA9E34 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C99615E91ACE985D00EA9E34 /* AFHTTPSessionManager+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+Private.h"; sourceTree = "<group>"; };
+		C99615EA1ACE9BEE00EA9E34 /* ALUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALUploadManager.h; sourceTree = "<group>"; };
+		C99615EB1ACE9BEE00EA9E34 /* ALUploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALUploadManager.m; sourceTree = "<group>"; };
+		C99617591ACEB6A600EA9E34 /* FMAssetInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAssetInputStream.h; sourceTree = "<group>"; };
+		C996175A1ACEB6A600EA9E34 /* FMAssetInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAssetInputStream.m; sourceTree = "<group>"; };
+		C996175B1ACEB6A600EA9E34 /* FMAssetInputStreamDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAssetInputStreamDelegate.h; sourceTree = "<group>"; };
+		C996175C1ACEB6A600EA9E34 /* NSMutableURLRequest+FMAssetStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+FMAssetStream.h"; sourceTree = "<group>"; };
+		C996175D1ACEB6A600EA9E34 /* NSMutableURLRequest+FMAssetStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+FMAssetStream.m"; sourceTree = "<group>"; };
+		CB7C2FEECF1D45AA12E0A552 /* Pods-ALAssetUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALAssetUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALAssetUpload/Pods-ALAssetUpload.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788B8ED6DD1BF2B4ED8C0173 /* libPods-ALAssetUpload.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +157,8 @@
 				4217EA321ACAB81A00FAE82A /* Submodules */,
 				4217EA251ACAB61600FAE82A /* ALAssetUploadTests */,
 				4217EA0A1ACAB61600FAE82A /* Products */,
+				6EB443B2006BBCADAA0FACF1 /* Pods */,
+				E5F6DBFD349B2F1CEA93A365 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +182,14 @@
 				4217EA191ACAB61600FAE82A /* Images.xcassets */,
 				4217EA1B1ACAB61600FAE82A /* LaunchScreen.xib */,
 				4217EA0C1ACAB61600FAE82A /* Supporting Files */,
+				42F0A1A21ACBDE6B00F46D2E /* NSURLSessionTask+Extras.h */,
+				42F0A1A31ACBDE6B00F46D2E /* NSURLSessionTask+Extras.m */,
+				C99615E31ACE911500EA9E34 /* ALCreateFileCommand.h */,
+				C99615E41ACE911500EA9E34 /* ALCreateFileCommand.m */,
+				C99615E71ACE91A200EA9E34 /* CommonDefs.h */,
+				C99615E91ACE985D00EA9E34 /* AFHTTPSessionManager+Private.h */,
+				C99615EA1ACE9BEE00EA9E34 /* ALUploadManager.h */,
+				C99615EB1ACE9BEE00EA9E34 /* ALUploadManager.m */,
 			);
 			path = ALAssetUpload;
 			sourceTree = "<group>";
@@ -165,6 +199,7 @@
 			children = (
 				4217EA0D1ACAB61600FAE82A /* Info.plist */,
 				4217EA0E1ACAB61600FAE82A /* main.m */,
+				C99615E81ACE923C00EA9E34 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -190,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				4217EA331ACAB81A00FAE82A /* AFNetworking */,
+				C99615ED1ACEB6A500EA9E34 /* FMAssetStream */,
 				4217EACC1ACAB81A00FAE82A /* POSInputStreamLibrary */,
 			);
 			path = Submodules;
@@ -279,6 +315,51 @@
 			path = POSInputStreamLibrary;
 			sourceTree = "<group>";
 		};
+		6EB443B2006BBCADAA0FACF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9831FEB23FACB3CDC490BFD5 /* Pods-ALAssetUpload.debug.xcconfig */,
+				CB7C2FEECF1D45AA12E0A552 /* Pods-ALAssetUpload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C99615ED1ACEB6A500EA9E34 /* FMAssetStream */ = {
+			isa = PBXGroup;
+			children = (
+				C99617541ACEB6A600EA9E34 /* Pod */,
+			);
+			path = FMAssetStream;
+			sourceTree = "<group>";
+		};
+		C99617541ACEB6A600EA9E34 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C99617571ACEB6A600EA9E34 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		C99617571ACEB6A600EA9E34 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C99617591ACEB6A600EA9E34 /* FMAssetInputStream.h */,
+				C996175A1ACEB6A600EA9E34 /* FMAssetInputStream.m */,
+				C996175B1ACEB6A600EA9E34 /* FMAssetInputStreamDelegate.h */,
+				C996175C1ACEB6A600EA9E34 /* NSMutableURLRequest+FMAssetStream.h */,
+				C996175D1ACEB6A600EA9E34 /* NSMutableURLRequest+FMAssetStream.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E5F6DBFD349B2F1CEA93A365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				320E2BA94F96D9D57BE5AED0 /* libPods-ALAssetUpload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,9 +367,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4217EA2C1ACAB61600FAE82A /* Build configuration list for PBXNativeTarget "ALAssetUpload" */;
 			buildPhases = (
+				2A9E30A5D9AA39834AA2560B /* Check Pods Manifest.lock */,
 				4217EA051ACAB61600FAE82A /* Sources */,
 				4217EA061ACAB61600FAE82A /* Frameworks */,
 				4217EA071ACAB61600FAE82A /* Resources */,
+				09CE30C92D30FF6750C91640 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -394,14 +477,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09CE30C92D30FF6750C91640 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALAssetUpload/Pods-ALAssetUpload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A9E30A5D9AA39834AA2560B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4217EA051ACAB61600FAE82A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4217EAF01ACAB81A00FAE82A /* AFHTTPRequestOperation.m in Sources */,
+				42F0A1A41ACBDE6B00F46D2E /* NSURLSessionTask+Extras.m in Sources */,
 				4217EB401ACAB81A00FAE82A /* UIButton+AFNetworking.m in Sources */,
+				C99617DC1ACEB6A600EA9E34 /* NSMutableURLRequest+FMAssetStream.m in Sources */,
 				4217EB471ACAB81A00FAE82A /* NSInputStream+POS.m in Sources */,
+				C99617DB1ACEB6A600EA9E34 /* FMAssetInputStream.m in Sources */,
+				C99615E51ACE911500EA9E34 /* ALCreateFileCommand.m in Sources */,
 				4217EB3E1ACAB81A00FAE82A /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				4217EB3F1ACAB81A00FAE82A /* UIAlertView+AFNetworking.m in Sources */,
 				4217EA151ACAB61600FAE82A /* ViewController.m in Sources */,
@@ -422,6 +542,7 @@
 				4217EA0F1ACAB61600FAE82A /* main.m in Sources */,
 				4217EB3D1ACAB81A00FAE82A /* AFNetworkActivityIndicatorManager.m in Sources */,
 				4217EB481ACAB81A00FAE82A /* POSBlobInputStream.m in Sources */,
+				C99615EC1ACE9BEE00EA9E34 /* ALUploadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,8 +664,11 @@
 		};
 		4217EA2D1ACAB61600FAE82A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9831FEB23FACB3CDC490BFD5 /* Pods-ALAssetUpload.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ALAssetUpload/PrefixHeader.pch;
 				INFOPLIST_FILE = ALAssetUpload/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -554,8 +678,11 @@
 		};
 		4217EA2E1ACAB61600FAE82A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7C2FEECF1D45AA12E0A552 /* Pods-ALAssetUpload.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ALAssetUpload/PrefixHeader.pch;
 				INFOPLIST_FILE = ALAssetUpload/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
