@@ -37,7 +37,7 @@
                                 @"Mountbit-Auth": @"9ca41fdb74794245ab991a9de3dfc630",
                                 @"User-Agent": @"MegaDisk/1.1.113 (iPhone Simulator; iOS x86_64; Scale/2.00)"};
         
-        self.requestParams = @{@"path": @"/2/2014.07.14 08.28.16.jpg",
+        self.requestParams = @{@"path": @"/3/Animation.zip",
                                @"created": @"1405312096000",
                                @"device_id": @"35142FDB-EA69-4C25-8830-70E200679D62",
                                @"device_reference": @"assets-library://asset/asset.JPG?id=6E5438ED-9A8C-4ED0-9DEA-AB2D8F8A9360&ext=JPG",

@@ -19,7 +19,7 @@ typedef void (^CallbackWithError)(BOOL status, NSError* error);
 
 #pragma mark - Functions
 
-inline
+CG_INLINE
 void CheckFolder(NSString *path)
 {
     if( ![[NSFileManager defaultManager] fileExistsAtPath:path]) {
@@ -34,7 +34,7 @@ void CheckFolder(NSString *path)
     }
 }
 
-inline
+CG_INLINE
 NSString* AppCacheDirectory() {
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
@@ -42,7 +42,7 @@ NSString* AppCacheDirectory() {
     return basePath;
 }
 
-inline
+CG_INLINE
 NSString* TempFilesPath()
 {
     NSString* path = [AppCacheDirectory() stringByAppendingPathComponent:@"files"];

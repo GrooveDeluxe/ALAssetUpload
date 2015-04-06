@@ -10,7 +10,7 @@
 
 @implementation NSURLSessionTask (Extras)
 
-- (void)log
+- (void)logTask
 {
     NSHTTPURLResponse *response = (NSHTTPURLResponse *)self.response;
     NSString *str = [[NSString alloc] initWithData:self.originalRequest.HTTPBody encoding:NSUTF8StringEncoding];
