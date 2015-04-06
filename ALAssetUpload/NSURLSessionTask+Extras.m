@@ -10,18 +10,18 @@
 
 @implementation NSURLSessionTask (Extras)
 
-- (void)logTask
++ (void)logTask:(NSURLSessionTask *)task
 {
-    NSHTTPURLResponse *response = (NSHTTPURLResponse *)self.response;
-    NSString *str = [[NSString alloc] initWithData:self.originalRequest.HTTPBody encoding:NSUTF8StringEncoding];
+    NSHTTPURLResponse *response = (NSHTTPURLResponse *)task.response;
+    NSString *str = [[NSString alloc] initWithData:task.originalRequest.HTTPBody encoding:NSUTF8StringEncoding];
     NSLog(@"==========BEGIN============\n"
-          @"method: %@\n"
+          @"request method: %@\n"
           @"request URL: %@\n"
           @"request body: %@\n"
           @"request headers: %@\n"
           @"response status code: %d\n"
           @"response headers: %@\n"
-          @"==========END============\n", self.originalRequest.HTTPMethod, self.originalRequest.URL, str, [self.originalRequest allHTTPHeaderFields], response.statusCode, [response allHeaderFields]);
+          @"==========END============\n", task.originalRequest.HTTPMethod, task.originalRequest.URL, str, [task.originalRequest allHTTPHeaderFields], response.statusCode, [response allHeaderFields]);
 }
 
 @end

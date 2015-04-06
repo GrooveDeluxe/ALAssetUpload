@@ -12,6 +12,9 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+#import <AWSCore/AWSCore.h>
+#import <AWSS3/AWSS3.h>
+
 #import "AFNetworking.h"
 #import "AFHTTPSessionManager+Private.h"
 #import "NSURLSessionTask+Extras.h"

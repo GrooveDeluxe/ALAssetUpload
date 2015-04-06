@@ -9,6 +9,8 @@
 #ifndef ALAssetUpload_CommonDefs_h
 #define ALAssetUpload_CommonDefs_h
 
+#define TEST_FILE_PATH [TempFilesPath() stringByAppendingPathComponent:@"Animation.zip"]
+
 #define NSLogExc(a) NSLog(@"%@",[NSString stringWithFormat:@"EXC: %@, line %d, %s >> EXCEPTION: %@ REASON: %@",[[NSString stringWithFormat:@"%s",__FILE__] lastPathComponent],__LINE__,__func__, [(a) name],[(a) reason]])
 
 typedef void (^Block)();

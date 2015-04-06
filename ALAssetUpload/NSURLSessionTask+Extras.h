@@ -10,6 +10,6 @@
 
 @interface NSURLSessionTask (Extras)
 
-- (void)logTask;
++ (void)logTask:(NSURLSessionTask *)task;
 
 @end

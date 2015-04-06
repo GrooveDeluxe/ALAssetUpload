@@ -30,12 +30,12 @@
     self = [super init];
     if (self) {
         
-        self.requestURLString = @"https://disk-api.megafon.ru/api/1/files/create/";
+        self.requestURLString = @"https://be-saas.cloudike.com/api/1/files/create/";
         
-        self.requestHeaders = @{@"Accept-Language": @"ru;q=1",
+        self.requestHeaders = @{@"Accept-Language": @"en;q=1",
                                 @"Content-Type": @"application/x-www-form-urlencoded",
-                                @"Mountbit-Auth": @"9ca41fdb74794245ab991a9de3dfc630",
-                                @"User-Agent": @"MegaDisk/1.1.113 (iPhone Simulator; iOS x86_64; Scale/2.00)"};
+                                @"Mountbit-Auth": @"5f5ce306e4aa4eb99a9ffae83c774f25",
+                                @"User-Agent": @"Cloudike/1.1.113 (iPhone Simulator; iOS x86_64; Scale/2.00)"};
         
         self.requestParams = @{@"path": @"/3/Animation.zip",
                                @"created": @"1405312096000",
